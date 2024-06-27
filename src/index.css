@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  /* background-color: #fff; */
+  
+    background: rgb(129, 233, 235);
+    /* background: radial-gradient(circle, rgba(187,81,219,1) 13%, rgba(0,212,255,1) 58%); */
+    
+}
+@media (max-width:639px) {
+  .change{
+    width: 75rem;
+
+  }
+  .change2{
+    margin-right: 35rem;
+  }
+  
+}
+
+
+
